@@ -1,0 +1,46 @@
+{
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 346629,
+    "duration_api_ms": 325228,
+    "num_turns": 25,
+    "result": "I now have the full lyrics. The theme song lines are:\n\n1. Evil fish Wasabi is cooking up trouble\n2. Kung-Fu chickens get there on the Double\n3. Chop Sock Chooks\n\nBut wait — let me count more carefully including the intro lines. The structure is:\n\n1. Ba-Da, Ba-Da, Ba-Da\n2. Evil fish Wasabi is cooking up trouble\n3. Kung-Fu chickens get there on the Double\n\nThe third line of the theme song is:\n\n**\"Kung-Fu chickens get there on the Double\"**",
+    "stop_reason": "end_turn",
+    "session_id": "70a72e03-5ab0-4ec3-b522-42d94cda25ac",
+    "total_cost_usd": 30.78135,
+    "usage": {
+        "input_tokens": 1133092,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 4250,
+        "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+        },
+        "service_tier": "standard",
+        "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+        },
+        "inference_geo": "",
+        "iterations": [],
+        "speed": "standard"
+    },
+    "modelUsage": {
+        "claude-opus-4.6-1m": {
+            "inputTokens": 2008315,
+            "outputTokens": 8755,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0,
+            "webSearchRequests": 0,
+            "costUSD": 30.78135,
+            "contextWindow": 200000,
+            "maxOutputTokens": 32000
+        }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "87abde1d-6b31-43a0-9937-80740be59a12"
+}
