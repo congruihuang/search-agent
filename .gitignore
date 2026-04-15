@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Embedded Python runtime
+Python/
+
+# Test / run output
+test_output/
+output/
+.pytest_cache/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Mars / Claude local state
+.claude/
+.mars/
+
+# MCP config (contains tokens)
+.mcp.json
